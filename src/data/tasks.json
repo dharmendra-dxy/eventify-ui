@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "tsk001",
+    "title": "Book venue for Tech Summit",
+    "status": "done",
+    "eventId": "evt001",
+    "priority": "high"
+  },
+  {
+    "_id": "tsk002",
+    "title": "Confirm keynote speakers",
+    "status": "in-progress",
+    "eventId": "evt001",
+    "priority": "high"
+  },
+  {
+    "_id": "tsk003",
+    "title": "Launch ticket sales",
+    "status": "todo",
+    "eventId": "evt001",
+    "priority": "medium"
+  },
+  {
+    "_id": "tsk004",
+    "title": "Marketing campaign",
+    "status": "todo",
+    "eventId": "evt001",
+    "priority": "medium"
+  },
+  {
+    "_id": "tsk005",
+    "title": "Arrange sound system",
+    "status": "done",
+    "eventId": "evt002",
+    "priority": "high"
+  },
+  {
+    "_id": "tsk006",
+    "title": "Book DJ lineup",
+    "status": "in-progress",
+    "eventId": "evt002",
+    "priority": "high"
+  },
+  {
+    "_id": "tsk007",
+    "title": "Security arrangements",
+    "status": "todo",
+    "eventId": "evt002",
+    "priority": "high"
+  },
+  {
+    "_id": "tsk008",
+    "title": "Food vendor contracts",
+    "status": "todo",
+    "eventId": "evt005",
+    "priority": "low"
+  }
+]

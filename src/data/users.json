@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "usr001",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@eventify.com",
+    "role": "Organizer",
+    "avatar": "AM",
+    "department": "Management",
+    "joinDate": "2025-01-15",
+    "status": "active",
+    "permissions": ["all"]
+  },
+  {
+    "_id": "usr002",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@eventify.com",
+    "role": "Organizer",
+    "avatar": "SC",
+    "department": "Events",
+    "joinDate": "2025-02-20",
+    "status": "active",
+    "permissions": ["events", "attendees", "tickets"]
+  },
+  {
+    "_id": "usr003",
+    "name": "Marcus Johnson",
+    "email": "marcus.johnson@eventify.com",
+    "role": "Staff",
+    "avatar": "MJ",
+    "department": "Operations",
+    "joinDate": "2025-03-10",
+    "status": "active",
+    "permissions": ["attendees", "checkin"]
+  },
+  {
+    "_id": "usr004",
+    "name": "Emily Davis",
+    "email": "emily.davis@eventify.com",
+    "role": "Staff",
+    "avatar": "ED",
+    "department": "Marketing",
+    "joinDate": "2025-04-05",
+    "status": "active",
+    "permissions": ["analytics", "reports"]
+  },
+  {
+    "_id": "usr005",
+    "name": "Raj Patel",
+    "email": "raj.patel@eventify.com",
+    "role": "Volunteer",
+    "avatar": "RP",
+    "department": "Support",
+    "joinDate": "2025-05-12",
+    "status": "active",
+    "permissions": ["checkin", "info"]
+  },
+  {
+    "_id": "usr006",
+    "name": "Lisa Wong",
+    "email": "lisa.wong@eventify.com",
+    "role": "Volunteer",
+    "avatar": "LW",
+    "department": "Support",
+    "joinDate": "2025-05-15",
+    "status": "inactive",
+    "permissions": ["checkin"]
+  },
+  {
+    "_id": "usr007",
+    "name": "James Wilson",
+    "email": "james.wilson@eventify.com",
+    "role": "Staff",
+    "avatar": "JW",
+    "department": "Technical",
+    "joinDate": "2025-06-01",
+    "status": "active",
+    "permissions": ["events", "analytics"]
+  },
+  {
+    "_id": "usr008",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@eventify.com",
+    "role": "Volunteer",
+    "avatar": "PS",
+    "department": "Hospitality",
+    "joinDate": "2025-06-20",
+    "status": "active",
+    "permissions": ["attendees", "info"]
+  }
+]

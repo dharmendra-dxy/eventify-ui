@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "vip001",
+    "name": "John Doe",
+    "avatar": "JD",
+    "eventsAttended": 5,
+    "totalSpent": 1250,
+    "tier": "gold"
+  },
+  {
+    "_id": "vip002",
+    "name": "Sarah Lee",
+    "avatar": "SL",
+    "eventsAttended": 4,
+    "totalSpent": 980,
+    "tier": "gold"
+  },
+  {
+    "_id": "vip003",
+    "name": "Amit Sharma",
+    "avatar": "AS",
+    "eventsAttended": 3,
+    "totalSpent": 750,
+    "tier": "silver"
+  },
+  {
+    "_id": "vip004",
+    "name": "Emily Chen",
+    "avatar": "EC",
+    "eventsAttended": 3,
+    "totalSpent": 720,
+    "tier": "silver"
+  },
+  {
+    "_id": "vip005",
+    "name": "Raj Patel",
+    "avatar": "RP",
+    "eventsAttended": 2,
+    "totalSpent": 540,
+    "tier": "bronze"
+  }
+]

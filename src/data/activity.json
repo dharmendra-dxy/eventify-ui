@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "act001",
+    "type": "ticket",
+    "message": "3 tickets sold for Neon Nights Festival",
+    "time": "2 minutes ago",
+    "icon": "ticket",
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "act002",
+    "type": "checkin",
+    "message": "Priya Patel checked in at Tech Innovation Summit",
+    "time": "5 minutes ago",
+    "icon": "check",
+    "color": "#4ADE80"
+  },
+  {
+    "_id": "act003",
+    "type": "event",
+    "message": "New event 'AI Workshop' created by Shivam Gupta",
+    "time": "15 minutes ago",
+    "icon": "calendar",
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "act004",
+    "type": "team",
+    "message": "Rahul Kumar joined as Staff member",
+    "time": "32 minutes ago",
+    "icon": "user",
+    "color": "#C4B5FD"
+  },
+  {
+    "_id": "act005",
+    "type": "ticket",
+    "message": "VIP ticket purchased for Gaming Championship",
+    "time": "1 hour ago",
+    "icon": "ticket",
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "act006",
+    "type": "checkin",
+    "message": "12 attendees checked in at Startup Pitch Battle",
+    "time": "2 hours ago",
+    "icon": "check",
+    "color": "#4ADE80"
+  },
+  {
+    "_id": "act007",
+    "type": "revenue",
+    "message": "$2,450 revenue generated today",
+    "time": "3 hours ago",
+    "icon": "dollar",
+    "color": "#22C55E"
+  },
+  {
+    "_id": "act008",
+    "type": "event",
+    "message": "Food Truck Fiesta capacity increased to 1200",
+    "time": "4 hours ago",
+    "icon": "edit",
+    "color": "#FF6B6B"
+  }
+]

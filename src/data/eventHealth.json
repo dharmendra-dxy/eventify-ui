@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "evt001",
+    "eventId": "evt001",
+    "score": 92,
+    "ticketsSold": 425,
+    "capacity": 500,
+    "checkInRate": 88,
+    "revenue": 21250
+  },
+  {
+    "_id": "evt002",
+    "eventId": "evt002",
+    "score": 87,
+    "ticketsSold": 1650,
+    "capacity": 2000,
+    "checkInRate": 92,
+    "revenue": 123750
+  },
+  {
+    "_id": "evt003",
+    "eventId": "evt003",
+    "score": 95,
+    "ticketsSold": 285,
+    "capacity": 300,
+    "checkInRate": 96,
+    "revenue": 7125
+  },
+  {
+    "_id": "evt004",
+    "eventId": "evt004",
+    "score": 78,
+    "ticketsSold": 38,
+    "capacity": 50,
+    "checkInRate": 82,
+    "revenue": 1140
+  },
+  {
+    "_id": "evt005",
+    "eventId": "evt005",
+    "score": 85,
+    "ticketsSold": 780,
+    "capacity": 1000,
+    "checkInRate": 89,
+    "revenue": 7800
+  }
+]

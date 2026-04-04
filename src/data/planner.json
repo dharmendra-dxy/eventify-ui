@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "plan001",
+    "day": "Monday",
+    "date": "2026-06-15",
+    "tasks": [
+      { "title": "Venue Setup", "time": "09:00", "eventId": "evt001" },
+      { "title": "Sound Check", "time": "14:00", "eventId": "evt001" }
+    ]
+  },
+  {
+    "_id": "plan002",
+    "day": "Tuesday",
+    "date": "2026-06-16",
+    "tasks": [
+      { "title": "Speaker Rehearsal", "time": "10:00", "eventId": "evt001" },
+      { "title": "Final Walkthrough", "time": "16:00", "eventId": "evt001" }
+    ]
+  },
+  {
+    "_id": "plan003",
+    "day": "Wednesday",
+    "date": "2026-06-17",
+    "tasks": [
+      { "title": "Marketing Review", "time": "11:00", "eventId": null },
+      { "title": "Team Briefing", "time": "15:00", "eventId": null }
+    ]
+  },
+  {
+    "_id": "plan004",
+    "day": "Thursday",
+    "date": "2026-06-18",
+    "tasks": [
+      { "title": "Tech Summit Day!", "time": "09:00", "eventId": "evt001", "highlight": true }
+    ]
+  },
+  {
+    "_id": "plan005",
+    "day": "Friday",
+    "date": "2026-06-19",
+    "tasks": [
+      { "title": "Post-Event Survey", "time": "10:00", "eventId": "evt001" },
+      { "title": "Revenue Reconciliation", "time": "14:00", "eventId": null }
+    ]
+  }
+]

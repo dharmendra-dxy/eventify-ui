@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "pop001",
+    "eventId": "evt001",
+    "score": 95,
+    "fireCount": 5,
+    "trend": "up"
+  },
+  {
+    "_id": "pop002",
+    "eventId": "evt002",
+    "score": 88,
+    "fireCount": 4,
+    "trend": "up"
+  },
+  {
+    "_id": "pop003",
+    "eventId": "evt003",
+    "score": 72,
+    "fireCount": 3,
+    "trend": "stable"
+  },
+  {
+    "_id": "pop004",
+    "eventId": "evt004",
+    "score": 65,
+    "fireCount": 3,
+    "trend": "down"
+  },
+  {
+    "_id": "pop005",
+    "eventId": "evt005",
+    "score": 78,
+    "fireCount": 4,
+    "trend": "up"
+  }
+]

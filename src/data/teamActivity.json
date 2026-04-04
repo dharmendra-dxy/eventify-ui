@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "teamact001",
+    "user": "Sarah Chen",
+    "avatar": "SC",
+    "action": "added 12 attendees",
+    "target": "Tech Innovation Summit",
+    "time": "5 minutes ago",
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "teamact002",
+    "user": "Rahul Kumar",
+    "avatar": "RK",
+    "action": "updated event details",
+    "target": "Neon Nights Festival",
+    "time": "12 minutes ago",
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "teamact003",
+    "user": "Amit Sharma",
+    "avatar": "AS",
+    "action": "generated revenue report",
+    "target": "Monthly Analytics",
+    "time": "28 minutes ago",
+    "color": "#C4B5FD"
+  },
+  {
+    "_id": "teamact004",
+    "user": "Priya Patel",
+    "avatar": "PP",
+    "action": "checked in 25 attendees",
+    "target": "Startup Pitch Battle",
+    "time": "45 minutes ago",
+    "color": "#22C55E"
+  },
+  {
+    "_id": "teamact005",
+    "user": "Vikram Singh",
+    "avatar": "VS",
+    "action": "created new event",
+    "target": "AI Workshop 2026",
+    "time": "1 hour ago",
+    "color": "#FF6B6B"
+  }
+]

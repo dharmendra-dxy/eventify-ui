@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "ins001",
+    "type": "trend",
+    "icon": "trending-up",
+    "title": "Ticket Demand Surging",
+    "message": "Ticket demand increased by 45% for Neon Nights Festival. Consider increasing price by 10%.",
+    "priority": "high",
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "ins002",
+    "type": "prediction",
+    "icon": "crystal-ball",
+    "title": "Capacity Alert",
+    "message": "Tech Innovation Summit is likely to reach full capacity within 3 days based on current sales velocity.",
+    "priority": "high",
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "ins003",
+    "type": "revenue",
+    "icon": "dollar",
+    "title": "Revenue Opportunity",
+    "message": "Adding VIP tier to Gaming Championship could generate additional $5,000 revenue.",
+    "priority": "medium",
+    "color": "#22C55E"
+  },
+  {
+    "_id": "ins004",
+    "type": "marketing",
+    "icon": "megaphone",
+    "title": "Marketing Insight",
+    "message": "Social media engagement peaked last Thursday. Schedule your next campaign on the same day.",
+    "priority": "medium",
+    "color": "#C4B5FD"
+  },
+  {
+    "_id": "ins005",
+    "type": "attendee",
+    "icon": "users",
+    "title": "Repeat Attendees",
+    "message": "23% of registered attendees have been to 3+ of your events. Consider a loyalty program.",
+    "priority": "low",
+    "color": "#22C55E"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "notif001",
+    "type": "ticket",
+    "title": "New Ticket Sale",
+    "message": "3 VIP tickets sold for Neon Nights Festival",
+    "time": "2 minutes ago",
+    "read": false,
+    "icon": "ticket",
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "notif002",
+    "type": "attendee",
+    "title": "New Registration",
+    "message": "Priya Patel registered for Tech Innovation Summit",
+    "time": "5 minutes ago",
+    "read": false,
+    "icon": "user",
+    "color": "#C4B5FD"
+  },
+  {
+    "_id": "notif003",
+    "type": "event",
+    "title": "Event Updated",
+    "message": "Food Truck Fiesta capacity increased to 1200",
+    "time": "15 minutes ago",
+    "read": true,
+    "icon": "edit",
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "notif004",
+    "type": "team",
+    "title": "Team Activity",
+    "message": "Rahul Kumar joined as Staff member",
+    "time": "32 minutes ago",
+    "read": true,
+    "icon": "users",
+    "color": "#22C55E"
+  },
+  {
+    "_id": "notif005",
+    "type": "revenue",
+    "title": "Revenue Milestone",
+    "message": "You reached $50,000 in total revenue!",
+    "time": "1 hour ago",
+    "read": true,
+    "icon": "dollar",
+    "color": "#22C55E"
+  },
+  {
+    "_id": "notif006",
+    "type": "checkin",
+    "title": "Check-in Alert",
+    "message": "45 attendees checked in at Startup Pitch Battle",
+    "time": "2 hours ago",
+    "read": true,
+    "icon": "check",
+    "color": "#4ADE80"
+  }
+]

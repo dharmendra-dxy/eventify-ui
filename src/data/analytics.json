@@ -1,0 +1,38 @@
+[
+  {
+    "month": "Jan",
+    "ticketsSold": 120,
+    "revenue": 4800,
+    "attendance": 98
+  },
+  {
+    "month": "Feb",
+    "ticketsSold": 180,
+    "revenue": 7200,
+    "attendance": 95
+  },
+  {
+    "month": "Mar",
+    "ticketsSold": 250,
+    "revenue": 10000,
+    "attendance": 92
+  },
+  {
+    "month": "Apr",
+    "ticketsSold": 320,
+    "revenue": 12800,
+    "attendance": 96
+  },
+  {
+    "month": "May",
+    "ticketsSold": 280,
+    "revenue": 11200,
+    "attendance": 94
+  },
+  {
+    "month": "Jun",
+    "ticketsSold": 450,
+    "revenue": 18000,
+    "attendance": 97
+  }
+]

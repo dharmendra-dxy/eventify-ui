@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "loc001",
+    "name": "Delhi Convention Center",
+    "address": "Pragati Maidan, New Delhi",
+    "city": "Delhi",
+    "capacity": 5000,
+    "events": 3,
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "loc002",
+    "name": "Mumbai Marine Drive",
+    "address": "Netaji Subhash Chandra Bose Road",
+    "city": "Mumbai",
+    "capacity": 3000,
+    "events": 2,
+    "color": "#FFD93D"
+  },
+  {
+    "_id": "loc003",
+    "name": "Bangalore Tech Hub",
+    "address": "Electronic City Phase 1",
+    "city": "Bangalore",
+    "capacity": 800,
+    "events": 4,
+    "color": "#C4B5FD"
+  },
+  {
+    "_id": "loc004",
+    "name": "Chennai Arts District",
+    "address": "Cathedral Road",
+    "city": "Chennai",
+    "capacity": 500,
+    "events": 1,
+    "color": "#FF6B6B"
+  },
+  {
+    "_id": "loc005",
+    "name": "Hyderabad Necklace Road",
+    "address": "Hussain Sagar Lake",
+    "city": "Hyderabad",
+    "capacity": 2500,
+    "events": 2,
+    "color": "#FFD93D"
+  }
+]

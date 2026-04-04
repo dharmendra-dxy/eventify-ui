@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "bud001",
+    "eventId": "evt001",
+    "venue": 15000,
+    "marketing": 8000,
+    "staff": 5000,
+    "equipment": 3000,
+    "catering": 4000,
+    "miscellaneous": 2000
+  },
+  {
+    "_id": "bud002",
+    "eventId": "evt002",
+    "venue": 25000,
+    "marketing": 12000,
+    "staff": 8000,
+    "equipment": 15000,
+    "catering": 5000,
+    "miscellaneous": 3000
+  },
+  {
+    "_id": "bud003",
+    "eventId": "evt003",
+    "venue": 5000,
+    "marketing": 3000,
+    "staff": 2000,
+    "equipment": 1500,
+    "catering": 2000,
+    "miscellaneous": 500
+  }
+]
