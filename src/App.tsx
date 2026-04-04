@@ -1,121 +1,106 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Menu, Star } from 'lucide-react';
+import { Sidebar } from '@/components/Sidebar';
+import { useAuth } from '@/context/AuthContext';
+import { Footer } from '@/components/Footer';
+import { Chatbot } from '@/components/Chatbot';
+import { KeyboardShortcuts } from '@/components/KeyboardShortcuts';
+import { Dashboard } from '@/pages/Dashboard';
+import { Events } from '@/pages/Events';
+import { Attendees } from '@/pages/Attendees';
+import { TicketsPage } from '@/pages/Tickets';
+import { Finance } from '@/pages/Finance';
+import { Analytics } from '@/pages/Analytics';
+import { Calendar } from '@/pages/Calendar';
+import { Team } from '@/pages/Team';
+import { Settings } from '@/pages/Settings';
+import { Login } from '@/pages/Login';
+import { Register } from '@/pages/Register';
+import { TermsOfService } from '@/pages/TermsOfService';
+import { PrivacyPolicy } from '@/pages/PrivacyPolicy';
+import { AuthProvider } from '@/context/AuthContext';
+import ScrollToTop from '@/components/ScrollToTop';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <AuthProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <div className="min-h-screen bg-[#FFFDF5] font-sans">
+          {/* Mobile Header */}
+          <header className="lg:hidden bg-[#FFFDF5] border-b-4 border-black p-3 sm:p-4 sticky top-0 z-30">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 sm:gap-3">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#FF6B6B] border-4 border-black flex items-center justify-center shadow-[3px_3px_0px_#000]">
+                  <Star className="w-4 h-4 sm:w-5 sm:h-5" />
+                </div>
+                <div>
+                  <span className="text-lg sm:text-xl font-black uppercase">Eventify</span>
+                  <AuthStatus />
+                </div>
+              </div>
+              <button
+                onClick={() => setSidebarOpen(!sidebarOpen)}
+                className="p-2.5 sm:p-3 bg-white border-4 border-black shadow-[4px_4px_0px_#000] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+                aria-label="Toggle menu"
+              >
+                <Menu className="w-5 h-5" />
+              </button>
+            </div>
+          </header>
 
-      <div className="ticks"></div>
+          <div className="flex">
+            {/* Sidebar */}
+            <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+            {/* Main Content */}
+            <main className="flex-1 min-h-screen lg:ml-0 flex flex-col">
+              <div className="flex-1">
+                <Routes>
+                  <Route path="/" element={<Dashboard />} />
+                  <Route path="/events" element={<Events />} />
+                  <Route path="/attendees" element={<Attendees />} />
+                  <Route path="/tickets" element={<TicketsPage />} />
+                  <Route path="/finance" element={<Finance />} />
+                  <Route path="/analytics" element={<Analytics />} />
+                  <Route path="/calendar" element={<Calendar />} />
+                  <Route path="/team" element={<Team />} />
+                  <Route path="/settings" element={<Settings />} />
+                  <Route path="/login" element={<Login />} />
+                  <Route path="/register" element={<Register />} />
+                  <Route path="/terms" element={<TermsOfService />} />
+                  <Route path="/privacy" element={<PrivacyPolicy />} />
+                  <Route path="*" element={<Navigate to="/" replace />} />
+                </Routes>
+              </div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+              {/* Footer */}
+              <Footer />
+            </main>
+          </div>
+
+          {/* Floating Chatbot */}
+          <Chatbot />
+
+          {/* Keyboard Shortcuts */}
+          <KeyboardShortcuts />
+        </div>
+      </BrowserRouter>
+    </AuthProvider>
+  );
 }
 
-export default App
+const AuthStatus = () => {
+  const { isLoggedIn, user } = useAuth();
+  return (
+    <p className="text-xs text-black/60 font-medium">
+      {isLoggedIn ? user?.name : 'Guest'}
+    </p>
+  );
+};
+
+export default App;
